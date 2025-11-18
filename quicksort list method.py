@@ -3,7 +3,7 @@ def quicksort(list_to_sort):
     lis_to_sort: (list) the provided numbers to sort
     output : (list) the numbers sorted
     """
-    length = (len.list_to_sort)//2
+    length = (len(list_to_sort))//2
     pivot = list_to_sort[length]
     left_list = []
     right_list = []
@@ -18,3 +18,4 @@ def quicksort(list_to_sort):
         else:
             middle_list.append(i)
     return quicksort(left_list) + middle_list + quicksort(right_list)
+
