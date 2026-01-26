@@ -1,2 +1,2 @@
-# Python
-Learning Python with small practice projects
+# Python Database
+A small database that allows the user to use some commands to edit it.
